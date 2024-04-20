@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 15px;
+}
+  
+.navbar-brand {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+  
+.logout-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+  /* Align the navbar links */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+  
